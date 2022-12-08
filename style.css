@@ -3,12 +3,25 @@ body {
   font-weight: 400 !important;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 .wide > .inner {
   max-width: 1260px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.site-info > span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 .site-info svg {
   width: 30px;
   height: 30px;
@@ -34,4 +47,14 @@ body {
 .c-button button.borderFull.radius5 {
   font-weight: 500;
   line-height: 1.2;
+}
+
+.site-header .top-row .right-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
