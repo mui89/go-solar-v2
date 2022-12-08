@@ -48,13 +48,3 @@ a:hover {
   font-weight: 500;
   line-height: 1.2;
 }
-
-.site-header .top-row .right-col {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
