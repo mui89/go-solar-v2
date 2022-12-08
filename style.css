@@ -1,11 +1,12 @@
+body {
+  font-family: var(--contentfont);
+  font-weight: 400 !important;
+}
+
 .wide > .inner {
   max-width: 1260px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.site-info {
-  font-family: var(--raleway);
 }
 
 .c-button button.borderFull.radius5 {
