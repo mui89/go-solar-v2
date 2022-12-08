@@ -22,6 +22,7 @@ body {
   font-weight: 700;
   color: var(--color-lbf66ieb);
   display: block;
+  text-transform: uppercase;
 }
 
 .c-button button.borderFull.radius5 {
