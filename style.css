@@ -8,7 +8,7 @@
   font-family: var(--raleway);
 }
 
-.c-button button.btnshadow.custom.btn-vp.btn-hp.borderFull.radius5 {
+.c-button button.btnshadow.custom {
   font-weight: 500;
   line-height: 1.2;
 }
