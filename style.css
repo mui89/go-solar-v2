@@ -9,6 +9,21 @@ body {
   margin-right: auto;
 }
 
+.site-info svg {
+  width: 30px;
+  height: 30px;
+}
+
+.site-info-content {
+  font-size: 14px;
+}
+.site-info-content span {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-lbf66ieb);
+  display: block;
+}
+
 .c-button button.borderFull.radius5 {
   font-weight: 500;
   line-height: 1.2;
