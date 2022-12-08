@@ -12,6 +12,12 @@ body {
 .site-info svg {
   width: 30px;
   height: 30px;
+  margin-right: 1em;
+}
+.site-info .site-info-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .site-info-content {
