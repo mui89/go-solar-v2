@@ -3,3 +3,8 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.c-button button {
+  font-weight: 500;
+  line-height: 1.2;
+}
