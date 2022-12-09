@@ -67,4 +67,7 @@ a:hover {
   .site-header .top-row .right-col .c-custom-code {
     max-width: 400px;
   }
+  .site-header .top-row .right-col .c-button {
+    margin-top: 10px;
+  }
 }
