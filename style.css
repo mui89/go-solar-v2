@@ -2,6 +2,9 @@ body {
   font-family: var(--contentfont);
   font-weight: 400 !important;
 }
+body .bgCover > div {
+  background-color: var(--white);
+}
 
 a {
   color: inherit;
@@ -50,10 +53,6 @@ a:hover {
 .c-button button.borderFull.radius5 {
   font-weight: 500;
   line-height: 1.2;
-}
-
-.c-section {
-  background-color: var(--white);
 }
 
 /* Media Queries */
