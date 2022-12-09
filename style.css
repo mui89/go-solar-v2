@@ -75,6 +75,14 @@ a:hover {
   height: auto;
 }
 
+.social-icons > .c-svg {
+  -webkit-box-flex: 0 !important;
+      -ms-flex: 0 0 auto !important;
+          flex: 0 0 auto !important;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /* Media Queries */
 @media screen and (min-width: 768px) {
   .site-header .top-row .right-col .c-custom-code, .site-header .top-row .right-col .c-button {
@@ -86,6 +94,9 @@ a:hover {
   }
   .site-header .top-row .right-col .c-button {
     max-width: 229px;
+  }
+  .site-header .navrow > .inner > .c-column:last-child {
+    max-width: 250px;
   }
   .logo-nav .branding {
     display: none;
