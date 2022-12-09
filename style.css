@@ -59,7 +59,7 @@ a:hover {
     max-width: 400px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .site-header .top-row .right-col {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
