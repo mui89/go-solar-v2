@@ -32,6 +32,9 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
 }
+.site-info .site-info-item ~ .site-info-item {
+  margin-left: 1.5em;
+}
 
 .site-info-content {
   font-size: 14px;
@@ -56,6 +59,8 @@ a:hover {
 /* Media Queries */
 @media screen and (min-width: 768px) {
   .site-header .top-row .right-col .c-custom-code {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     max-width: 400px;
   }
 }
@@ -65,7 +70,7 @@ a:hover {
         -ms-flex-pack: center !important;
             justify-content: center !important;
   }
-  .site-header .top-row .right-col .c-custom-code, .site-header .top-row .right-col .c-button {
+  .site-header .top-row .right-col .c-button {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
