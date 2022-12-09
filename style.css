@@ -55,6 +55,11 @@ a:hover {
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
+  .site-header .top-row .right-col .c-custom-code {
+    max-width: 400px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
   .site-header .top-row .right-col {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
@@ -64,10 +69,8 @@ a:hover {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
-  .site-header .top-row .right-col .c-custom-code {
-    max-width: 400px;
-  }
-  .site-header .top-row .right-col .c-button {
+  .site-header .top-row .right-col .c-button button {
+    padding: 8px 10px;
     margin-top: 10px;
   }
 }
