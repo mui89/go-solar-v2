@@ -94,10 +94,6 @@ a:hover {
   }
   .site-header .navrow > .inner > .c-column:last-child {
     max-width: 250px;
-    width: auto;
-    -webkit-box-flex: 0 !important;
-        -ms-flex: 0 0 auto !important;
-            flex: 0 0 auto !important;
   }
   .logo-nav .branding {
     display: none;
@@ -112,6 +108,12 @@ a:hover {
   .site-header .top-row .right-col .c-button button {
     padding: 8px 10px;
     margin-top: 10px;
+  }
+  .site-header .navrow > .inner > .c-column:last-child {
+    width: auto;
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 auto !important;
+            flex: 0 0 auto !important;
   }
 }
 @media screen and (min-width: 1024px) {
