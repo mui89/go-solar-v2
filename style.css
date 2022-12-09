@@ -56,9 +56,9 @@ a:hover {
 /* Media Queries */
 @media screen and (min-width: 768px) {
   .site-header .top-row .right-col {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
   }
   .site-header .top-row .right-col .c-custom-code, .site-header .top-row .right-col .c-button {
     -ms-flex-preferred-size: 100%;
