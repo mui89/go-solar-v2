@@ -49,6 +49,10 @@ a:hover {
   line-height: 1.2;
 }
 
+.c-section {
+  background-color: var(--white);
+}
+
 /* Media Queries */
 @media screen and (min-width: 768px) {
   .site-header .top-row .right-col {
