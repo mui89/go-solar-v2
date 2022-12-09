@@ -92,9 +92,6 @@ a:hover {
   .site-header .top-row .right-col .c-custom-code {
     max-width: 400px;
   }
-  .site-header .top-row .right-col .c-button {
-    max-width: 229px;
-  }
   .site-header .navrow > .inner > .c-column:last-child {
     max-width: 250px;
     width: auto;
@@ -115,5 +112,10 @@ a:hover {
   .site-header .top-row .right-col .c-button button {
     padding: 8px 10px;
     margin-top: 10px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .site-header .top-row .right-col .c-button {
+    max-width: 229px;
   }
 }
