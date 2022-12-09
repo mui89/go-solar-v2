@@ -78,6 +78,9 @@ svg {
   width: auto;
   height: auto;
 }
+.social-icon:hover svg {
+  color: var(--color-lbf66ieb);
+}
 
 .social-icons > .c-svg {
   -webkit-box-flex: 0 !important;
@@ -85,6 +88,9 @@ svg {
           flex: 0 0 auto !important;
   padding-left: 10px;
   padding-right: 10px;
+}
+.social-icons > .c-svg svg {
+  color: var(--color-lbgx78w9);
 }
 
 /* Media Queries */
