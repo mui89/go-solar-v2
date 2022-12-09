@@ -57,7 +57,17 @@ a:hover {
   line-height: 1.2;
 }
 .c-button button.borderFull.radius5:hover {
+  border-color: var(--color-lbe0irne);
   background-color: var(--color-lbe0irne);
+}
+
+.nav-menu a:hover {
+  text-decoration: none;
+}
+
+.social-icon {
+  width: auto;
+  height: auto;
 }
 
 /* Media Queries */
