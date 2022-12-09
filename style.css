@@ -72,6 +72,9 @@ a:hover {
   .site-header .top-row .right-col .c-button {
     max-width: 229px;
   }
+  .logo-nav .branding {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .site-header .top-row .right-col {
