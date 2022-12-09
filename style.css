@@ -61,6 +61,11 @@ a:hover {
   background-color: var(--color-lbe0irne);
 }
 
+.navrow > .inner > .c-column:first-child {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .nav-menu a:hover {
   text-decoration: none;
 }
