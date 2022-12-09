@@ -48,3 +48,19 @@ a:hover {
   font-weight: 500;
   line-height: 1.2;
 }
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+  .site-header .top-row .right-col {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .site-header .top-row .right-col .c-custom-code, .site-header .top-row .right-col .c-button {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .site-header .top-row .right-col .c-custom-code {
+    max-width: 400px;
+  }
+}
