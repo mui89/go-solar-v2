@@ -2,7 +2,10 @@ body {
   font-family: var(--contentfont);
   font-weight: 400 !important;
 }
-body .bgCover ~ div:not(.vue-notification-group) {
+body:not(.IsAdmin) .bgCover ~ div {
+  background-color: var(--white);
+}
+body.IsAdmin #app #page-creator #wrapper .hl_page-creator--content {
   background-color: var(--white);
 }
 
