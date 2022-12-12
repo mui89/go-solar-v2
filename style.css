@@ -20,7 +20,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: inherit;
+  font-weight: inherit;
 }
 
 svg {
@@ -28,11 +28,11 @@ svg {
 }
 
 .ff-inter {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif !important;
 }
 
 .fw-black {
-  font-weight: 900;
+  font-weight: 900 !important;
 }
 
 .wide > .inner {
