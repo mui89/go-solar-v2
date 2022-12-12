@@ -50,7 +50,7 @@ svg {
   max-width: 100%;
 }
 .midWideSection.full > .inner {
-  max-width: 1230px;
+  max-width: 1230px !important;
 }
 
 .site-info > span {
