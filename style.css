@@ -46,6 +46,13 @@ svg {
   margin-right: auto;
 }
 
+.midWideSection.full {
+  max-width: 100%;
+}
+.midWideSection.full > .inner {
+  max-width: 1230px;
+}
+
 .site-info > span {
   display: -webkit-box;
   display: -ms-flexbox;
