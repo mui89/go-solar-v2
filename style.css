@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
 body {
   font-family: var(--contentfont);
   font-weight: 400 !important;
@@ -20,6 +21,14 @@ a:hover {
 
 svg {
   fill: currentColor;
+}
+
+.ff-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.fw-black {
+  font-weight: 900;
 }
 
 .wide > .inner {
