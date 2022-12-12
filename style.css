@@ -35,6 +35,11 @@ svg {
   font-weight: 900 !important;
 }
 
+.shadow10 {
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
 .wide > .inner {
   max-width: 1260px;
   margin-left: auto;
