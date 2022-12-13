@@ -142,6 +142,11 @@ svg {
   line-height: 1.2;
 }
 
+.contact-form-footer .hl-app {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
 /* Media Queries */
 @media screen and (min-width: 768px) {
   .site-header .top-row .right-col .c-custom-code, .site-header .top-row .right-col .c-button {
