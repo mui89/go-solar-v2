@@ -264,6 +264,14 @@ svg {
   .footer-bottom > .inner {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .footer-bottom .c-column:not(:last-child) {
+    width: auto;
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 auto !important;
+            flex: 0 0 auto !important;
   }
   .footer-bottom .c-column:last-child > .inner.social-icons .c-paragraph {
     -ms-flex-preferred-size: 100%;
