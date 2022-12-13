@@ -260,3 +260,9 @@ svg {
     padding: 21px 30px !important;
   }
 }
+@media screen and (max-width: 1023px) {
+  .footer-bottom .c-column:last-child > .inner.social-icons .c-paragraph {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
