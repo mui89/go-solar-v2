@@ -261,6 +261,10 @@ svg {
   }
 }
 @media screen and (max-width: 1023px) {
+  .footer-bottom > .inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
   .footer-bottom .c-column:last-child > .inner.social-icons .c-paragraph {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
