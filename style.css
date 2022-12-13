@@ -118,6 +118,9 @@ svg {
   color: var(--color-lbf66ieb);
 }
 
+.hl-app {
+  font-family: inherit;
+}
 .hl-app input[type=email], .hl-app input[type=number], .hl-app input[type=password], .hl-app input[type=text], .hl-app input textarea {
   background-color: var(--white);
   border: 1px solid #ddd;
@@ -126,6 +129,7 @@ svg {
 .hl-app .form-control {
   padding-top: 18px !important;
   padding-bottom: 18px !important;
+  line-height: 1.2;
 }
 
 /* Media Queries */
