@@ -127,9 +127,8 @@ svg {
   border-radius: 0;
 }
 .hl-app .form-control {
-  padding-top: 18px !important;
-  padding-bottom: 18px !important;
   line-height: 1.2;
+  color: var(--color-lbe0jkft);
 }
 
 /* Media Queries */
@@ -168,5 +167,10 @@ svg {
 @media screen and (min-width: 1024px) {
   .site-header .top-row .right-col .c-button {
     max-width: 229px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hl-app .form-control {
+    padding: 21px 30px !important;
   }
 }
