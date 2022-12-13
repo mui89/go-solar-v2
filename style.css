@@ -142,6 +142,10 @@ svg {
   line-height: 1.2;
   letter-spacing: 5px;
   text-transform: uppercase;
+  background-image: url(assets/arrow-or.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .contact-form-footer .hl-app {
