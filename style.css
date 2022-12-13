@@ -136,6 +136,11 @@ svg {
   border: 1px solid #ddd;
   border-radius: 0;
 }
+.hl-app .btn {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+}
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
