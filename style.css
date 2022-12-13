@@ -118,6 +118,16 @@ svg {
   color: var(--color-lbf66ieb);
 }
 
+.hl-app input[type=email], .hl-app input[type=number], .hl-app input[type=password], .hl-app input[type=text], .hl-app input textarea {
+  background-color: var(--white);
+  border: 1px solid #ddd;
+  border-radius: 0;
+}
+.hl-app .form-control {
+  padding-top: 18px !important;
+  padding-bottom: 18px !important;
+}
+
 /* Media Queries */
 @media screen and (min-width: 768px) {
   .site-header .top-row .right-col .c-custom-code, .site-header .top-row .right-col .c-button {
