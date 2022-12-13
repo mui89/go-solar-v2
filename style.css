@@ -155,6 +155,9 @@ svg {
   .contact-form-footer > .inner > .c-column {
     padding: 20px 64px;
   }
+  .contact-form-footer .h1-app .menu-field-wrap:not(:last-child) {
+    width: 50%;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .site-header .top-row .right-col {
@@ -176,6 +179,9 @@ svg {
 @media screen and (min-width: 1024px) {
   .site-header .top-row .right-col .c-button {
     max-width: 229px;
+  }
+  .contact-form-footer .h1-app .menu-field-wrap:not(:last-child) {
+    width: 25%;
   }
 }
 @media screen and (min-width: 1200px) {
