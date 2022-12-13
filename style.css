@@ -160,6 +160,9 @@ svg {
   .contact-form-footer > .inner > .c-column {
     padding: 20px 64px;
   }
+  .contact-form-footer .hl-app .form-builder--item {
+    margin-top: 16px;
+  }
   .contact-form-footer .hl-app .menu-field-wrap:not(:nth-last-child(2)):not(:last-child) {
     width: 50%;
   }
