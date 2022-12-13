@@ -162,11 +162,18 @@ svg {
   margin-top: 20px;
 }
 
+.footer-bottom {
+  color: var(--white);
+}
 .footer-bottom .site-info-content {
   font-size: 18px;
 }
 .footer-bottom .site-info-content span {
-  color: var(--white);
+  color: inherit;
+  margin-bottom: 0.5em;
+}
+.footer-bottom a {
+  color: var(--color-lbe0irne);
 }
 
 /* Media Queries */
