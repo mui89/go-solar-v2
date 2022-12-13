@@ -214,7 +214,7 @@ svg {
     width: 25%;
   }
   .contact-form-footer .hl-app .menu-field-wrap:first-child, .contact-form-footer .hl-app .menu-field-wrap:nth-child(2), .contact-form-footer .hl-app .menu-field-wrap:nth-child(3) {
-    width: 33% !important;
+    width: 33.33333% !important;
   }
 }
 @media screen and (min-width: 1200px) {
