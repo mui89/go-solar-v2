@@ -129,6 +129,9 @@ svg {
 .hl-app .form-control {
   line-height: 1.2;
   color: var(--color-lbe0jkft);
+  background: var(--white);
+  border: 1px solid #ddd;
+  border-radius: 0;
 }
 
 /* Media Queries */
