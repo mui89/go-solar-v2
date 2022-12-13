@@ -175,6 +175,9 @@ svg {
 .footer-bottom a {
   color: var(--color-lbe0irne);
 }
+.footer-bottom .social-icons > .c-svg svg {
+  color: var(--color-lbe0irne);
+}
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
