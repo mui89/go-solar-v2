@@ -158,6 +158,9 @@ svg {
   .contact-form-footer .h1-app .menu-field-wrap:not(:last-child) {
     width: 50%;
   }
+  .contact-form-footer .h1-app .menu-field-wrap:nth-child(3) {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .site-header .top-row .right-col {
