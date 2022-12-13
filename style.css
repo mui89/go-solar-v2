@@ -211,7 +211,7 @@ svg {
     width: 50%;
   }
   .contact-form-footer .hl-app .menu-field-wrap:nth-child(3) {
-    width: 100%;
+    width: 100% !important;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
