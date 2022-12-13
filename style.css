@@ -140,6 +140,8 @@ svg {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.2;
+  letter-spacing: 5px;
+  text-transform: uppercase;
 }
 
 .contact-form-footer .hl-app {
