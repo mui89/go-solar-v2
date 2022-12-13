@@ -145,7 +145,11 @@ svg {
   background-image: url(assets/arrow-or.png);
   background-size: auto;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: 95% center;
+  padding-right: 50px !important;
+}
+.hl-app .btn:hover {
+  border-color: var(--color-lbe0irne) !important;
 }
 
 .contact-form-footer .hl-app {
