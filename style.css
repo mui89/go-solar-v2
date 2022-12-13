@@ -2,6 +2,7 @@
 body {
   font-family: var(--contentfont);
   font-weight: 400 !important;
+  color: var(--color-lbe0gxko);
 }
 body #app #page-creator #wrapper .hl_page-creator--content {
   background-color: var(--white);
@@ -159,6 +160,13 @@ svg {
 }
 .contact-form-footer .hl-app .btn {
   margin-top: 20px;
+}
+
+.footer-bottom .site-info-content {
+  font-size: 18px;
+}
+.footer-bottom .site-info-content span {
+  color: var(--white);
 }
 
 /* Media Queries */
