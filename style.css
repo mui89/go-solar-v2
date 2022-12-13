@@ -126,6 +126,9 @@ svg {
   border: 1px solid #ddd;
   border-radius: 0;
 }
+.hl-app textarea {
+  min-height: 109px;
+}
 .hl-app .form-control {
   line-height: 1.2;
   color: var(--color-lbe0jkft);
@@ -148,6 +151,9 @@ svg {
   }
   .logo-nav .branding {
     display: none;
+  }
+  .contact-form-footer > .inner > .c-column {
+    padding: 20px 64px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
