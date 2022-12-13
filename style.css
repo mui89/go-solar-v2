@@ -191,8 +191,8 @@ svg {
   .contact-form-footer .hl-app .menu-field-wrap:not(:nth-last-child(2)):not(:last-child) {
     width: 25%;
   }
-  .contact-form-footer .hl-app .menu-field-wrap:first-child, .contact-form-footer .hl-app .menu-field-wrap :nth-child(2), .contact-form-footer .hl-app .menu-field-wrap:nth-child(2) {
-    width: 33%;
+  .contact-form-footer .hl-app .menu-field-wrap:first-child, .contact-form-footer .hl-app .menu-field-wrap:nth-child(2), .contact-form-footer .hl-app .menu-field-wrap:nth-child(2) {
+    width: 33% !important;
   }
 }
 @media screen and (min-width: 1200px) {
