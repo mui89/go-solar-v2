@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
+@import "recent-posts.css";
 body {
   font-family: var(--contentfont);
   font-weight: 400 !important;
