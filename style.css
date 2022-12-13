@@ -147,6 +147,7 @@ svg {
   background-repeat: no-repeat;
   background-position: 95% center;
   padding-right: 50px !important;
+  border-color: var(--transparent) !important;
 }
 .hl-app .btn:hover {
   border-color: var(--color-lbe0irne) !important;
