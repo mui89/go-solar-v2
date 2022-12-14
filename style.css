@@ -289,6 +289,10 @@ picture img {
   .site-header .top-row .right-col .c-button {
     max-width: 229px;
   }
+  .c-section.featured-services {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .contact-form-footer .hl-app .menu-field-wrap:not(:nth-last-child(2)):not(:last-child) {
     width: 25%;
   }
