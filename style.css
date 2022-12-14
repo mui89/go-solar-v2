@@ -368,6 +368,10 @@ picture img {
   }
 }
 @media screen and (max-width: 767px) {
+  .c-section.home-slider .c-row {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
   .c-section.img-txt > .bg {
     position: relative;
     height: 300px;
