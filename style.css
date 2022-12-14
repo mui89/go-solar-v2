@@ -311,7 +311,7 @@ picture img {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .c-section.featured-services {
+  .c-section.home-intro, .c-section.featured-services {
     padding-top: 50px;
     padding-bottom: 50px;
   }
