@@ -39,6 +39,15 @@ picture img {
      object-fit: cover;
 }
 
+.btn-link {
+  color: var(--color-lagyhbu6);
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1.2;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
 .ff-inter {
   font-family: "Inter", sans-serif !important;
 }
