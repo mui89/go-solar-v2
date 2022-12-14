@@ -292,6 +292,9 @@ picture img {
   .site-header .top-row .right-col .c-button {
     max-width: 229px;
   }
+  .c-section.img-txt > .inner {
+    max-width: 1500px;
+  }
   .c-section.featured-services {
     padding-top: 50px;
     padding-bottom: 50px;
