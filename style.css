@@ -167,6 +167,10 @@ picture img {
   padding-right: 0;
 }
 
+.eapp-slider-button-link {
+  background-image: url(assets/arrow-or.png);
+}
+
 .testimonials-row > .inner {
   max-width: 1366px;
   margin-left: auto;
