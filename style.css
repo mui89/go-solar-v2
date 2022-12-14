@@ -339,3 +339,9 @@ picture img {
         flex-basis: 100%;
   }
 }
+@media screen and (max-width: 767px) {
+  .c-section.img-txt > .bg {
+    position: relative;
+    height: 300px;
+  }
+}
