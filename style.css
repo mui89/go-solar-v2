@@ -149,6 +149,11 @@ picture img {
   color: var(--color-lbf66ieb);
 }
 
+.image-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .hl-app {
   font-family: inherit;
 }
