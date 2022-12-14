@@ -293,7 +293,12 @@ picture img {
     max-width: 229px;
   }
   .c-section.img-txt > .inner {
-    max-width: 1500px;
+    max-width: 1500px !important;
+  }
+  .c-section.img-txt .txt-col {
+    max-width: 479px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .c-section.featured-services {
     padding-top: 50px;
