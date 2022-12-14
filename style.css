@@ -46,6 +46,9 @@ picture img {
   background-repeat: no-repeat;
   background-position: 95% center;
 }
+.c-button > a.btn-arrow-r:hover {
+  border-color: var(--color-lbe0irne);
+}
 
 .btn-link {
   color: var(--color-lbf66ieb);
