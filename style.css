@@ -264,6 +264,12 @@ picture img {
   .logo-nav .branding {
     display: none;
   }
+  .c-section.home-intro .c-column:first-child {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+    max-width: 270px;
+  }
   .c-section.home-intro .benefits .c-image-feature {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
@@ -315,6 +321,9 @@ picture img {
     margin-right: auto;
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+  .c-section.home-intro .c-column:first-child {
+    max-width: 480px;
   }
   .c-section.home-intro .stats-col {
     max-width: 348px;
