@@ -162,13 +162,13 @@ picture img {
   color: var(--color-lbf66ieb);
 }
 
+.eapp-slider-button-link {
+  background-image: url(assets/arrow-wr.png);
+}
+
 .c-section.home-slider .c-column {
   padding-left: 0;
   padding-right: 0;
-}
-
-.eapp-slider-button-link {
-  background-image: url(assets/arrow-wr.png);
 }
 
 .testimonials-row > .inner {
