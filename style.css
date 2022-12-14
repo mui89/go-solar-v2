@@ -57,6 +57,9 @@ picture img {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
+.btn-link:hover {
+  color: var(--color-lbe0irne);
+}
 
 .ff-inter {
   font-family: "Inter", sans-serif !important;
