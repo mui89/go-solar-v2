@@ -40,10 +40,12 @@ picture img {
 }
 
 .btn-link {
-  color: var(--color-lagyhbu6);
+  color: var(--color-lbf66ieb);
   text-transform: uppercase;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 400;
   line-height: 1.2;
+  letter-spacing: 3px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
