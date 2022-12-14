@@ -264,6 +264,11 @@ picture img {
   .logo-nav .branding {
     display: none;
   }
+  .c-section.home-intro .benefits .c-image-feature {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
   .c-section.img-txt.img-left > .bg {
     width: 50%;
   }
