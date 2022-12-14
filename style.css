@@ -255,6 +255,9 @@ picture img {
   .logo-nav .branding {
     display: none;
   }
+  .c-section.img-txt.img-left > .bg {
+    width: 50%;
+  }
   .contact-form-footer > .inner > .c-column {
     padding: 20px 64px;
   }
