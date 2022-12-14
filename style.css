@@ -162,6 +162,12 @@ picture img {
   color: var(--color-lbf66ieb);
 }
 
+.testimonials-row > .inner {
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .image-container img {
   -o-object-fit: cover;
      object-fit: cover;
