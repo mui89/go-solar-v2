@@ -331,6 +331,12 @@ picture img {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+  .c-section.img-txt .txt-col .c-heading > .text-output {
+    margin-bottom: 50px;
+  }
+  .c-section.img-txt .txt-col .c-button {
+    margin-top: 50px;
+  }
   .hl-app .form-control {
     padding: 21px 30px !important;
   }
