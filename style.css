@@ -311,6 +311,11 @@ picture img {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+  .c-section.home-intro .stats-col {
+    max-width: 348px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .c-section.home-intro, .c-section.featured-services {
     padding-top: 50px;
     padding-bottom: 50px;
