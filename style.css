@@ -321,6 +321,10 @@ picture img {
     margin-left: auto;
     margin-right: auto;
   }
+  .c-section.home-intro .benefits .c-image-feature {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .c-section.home-intro, .c-section.featured-services {
     padding-top: 50px;
     padding-bottom: 50px;
