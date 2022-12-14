@@ -10,7 +10,7 @@ body #app #page-creator #wrapper .hl_page-creator--content {
   background-color: var(--white);
 }
 
-#__nuxt .bgCover ~ div {
+#__nuxt > div > .bgCover ~ div {
   background-color: var(--white);
 }
 
