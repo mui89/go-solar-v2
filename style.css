@@ -162,6 +162,11 @@ picture img {
   color: var(--color-lbf66ieb);
 }
 
+.c-section.home-slider .c-column {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .testimonials-row > .inner {
   max-width: 1366px;
   margin-left: auto;
