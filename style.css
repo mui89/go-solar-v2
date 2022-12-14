@@ -299,6 +299,8 @@ picture img {
     max-width: 479px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .c-section.featured-services {
     padding-top: 50px;
@@ -325,6 +327,10 @@ picture img {
   }
 }
 @media screen and (min-width: 1200px) {
+  .c-section.img-txt .txt-col {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
   .hl-app .form-control {
     padding: 21px 30px !important;
   }
