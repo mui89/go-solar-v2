@@ -323,7 +323,7 @@ picture img {
     padding-bottom: 50px;
   }
   .c-section.home-intro .c-column:first-child {
-    max-width: 480px;
+    max-width: 400px;
   }
   .c-section.home-intro .stats-col {
     max-width: 348px;
@@ -359,6 +359,9 @@ picture img {
   }
 }
 @media screen and (min-width: 1200px) {
+  .c-section.home-intro .c-column:first-child {
+    max-width: 480px;
+  }
   .c-section.img-txt .txt-col {
     padding-top: 80px;
     padding-bottom: 80px;
