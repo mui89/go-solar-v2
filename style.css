@@ -188,9 +188,6 @@ picture img {
   margin-bottom: 15px;
   display: block;
 }
-.stats .stat:last-child {
-  padding-bottom: 40px;
-}
 
 .testimonials-row > .inner {
   max-width: 1366px;
