@@ -177,12 +177,19 @@ picture img {
   text-align: center;
   line-height: 1.2;
 }
+.stats .stat {
+  padding: 40px 15px 0;
+}
 .stats .stat .number {
   font-size: 40px;
   font-weight: 700;
   line-height: 1.2;
   color: var(--color-lbf66ieb);
   margin-bottom: 15px;
+  display: block;
+}
+.stats .stat:last-child {
+  padding-bottom: 40px;
 }
 
 .testimonials-row > .inner {
