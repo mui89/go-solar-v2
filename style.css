@@ -270,6 +270,15 @@ picture img {
             flex: 0 0 100% !important;
     max-width: 270px;
   }
+  .c-section.home-intro .c-column:first-child:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 1px;
+    background: #D6D6D6;
+  }
   .c-section.home-intro .benefits .c-image-feature {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
