@@ -322,6 +322,9 @@ picture img {
   .float-sm-left {
     float: left;
   }
+  .float-sm-right {
+    float: right;
+  }
   .c-section.home-intro .c-column:first-child {
     -webkit-box-flex: 0 !important;
         -ms-flex: 0 0 100% !important;
@@ -400,6 +403,9 @@ picture img {
   img.float-sm-left {
     margin-right: 30px;
   }
+  img.float-sm-right {
+    margin-left: 30px;
+  }
   .c-section.img-txt > .inner {
     max-width: 1500px !important;
   }
@@ -473,7 +479,7 @@ picture img {
   }
 }
 @media screen and (max-width: 1023px) {
-  img.float-sm-left {
+  img.float-sm-left, img.float-sm-right {
     width: 100%;
     margin-bottom: 30px;
   }
