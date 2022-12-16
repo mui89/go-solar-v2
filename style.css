@@ -175,7 +175,8 @@ picture img {
   padding-right: 0;
 }
 .c-section.page-banner > .inner {
-  max-width: 920px;
+  max-width: 950px !important;
+  height: 371px;
 }
 
 .page-title {
@@ -192,6 +193,7 @@ picture img {
   color: var(--white);
   display: block;
   font-size: 132%;
+  line-height: 1;
 }
 
 .stats {
