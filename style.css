@@ -444,7 +444,7 @@ picture img {
   .c-section.home-intro .c-column:first-child {
     max-width: 480px;
   }
-  .c-section.page-content {
+  .c-section.page-content .c-column:first-child {
     max-width: 330px;
     margin-left: 80px;
     margin-right: 25px;
