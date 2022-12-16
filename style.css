@@ -336,6 +336,21 @@ picture img {
         -ms-flex: 0 0 50%;
             flex: 0 0 50%;
   }
+  .c-section.page-content .c-column:first-child {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+    max-width: 280px;
+  }
+  .c-section.page-content .c-column:first-child:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 1px;
+    background: #D6D6D6;
+  }
   .c-section.img-txt.img-left > .bg {
     width: 50%;
   }
@@ -401,6 +416,9 @@ picture img {
   .c-section.home-intro, .c-section.featured-services {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+  .c-section.page-content {
+    padding-top: 50px;
   }
   .contact-form-footer .hl-app .menu-field-wrap:not(:nth-last-child(2)):not(:last-child) {
     width: 25%;
