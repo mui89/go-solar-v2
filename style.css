@@ -321,7 +321,6 @@ picture img {
   }
   .float-sm-left {
     float: left;
-    margin-right: 30px;
   }
   .c-section.home-intro .c-column:first-child {
     -webkit-box-flex: 0 !important;
@@ -398,6 +397,10 @@ picture img {
   .page-title {
     font-size: 70px;
   }
+  img.float-sm-left {
+    margin-right: 40px;
+    margin-bottom: 8px;
+  }
   .c-section.img-txt > .inner {
     max-width: 1500px !important;
   }
@@ -471,6 +474,10 @@ picture img {
   }
 }
 @media screen and (max-width: 1023px) {
+  img.float-sm-left {
+    width: 100%;
+    margin-bottom: 30px;
+  }
   .footer-bottom > .inner {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
