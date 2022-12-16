@@ -398,8 +398,7 @@ picture img {
     font-size: 70px;
   }
   img.float-sm-left {
-    margin-right: 40px;
-    margin-bottom: 8px;
+    margin-right: 30px;
   }
   .c-section.img-txt > .inner {
     max-width: 1500px !important;
