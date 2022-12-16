@@ -167,7 +167,7 @@ picture img {
 }
 
 .bg-opacity-4 > .bg {
-  opacity: 0.4;
+  opacity: 0.4 !important;
 }
 
 .c-section.home-slider .c-column {
@@ -179,7 +179,19 @@ picture img {
 }
 
 .page-title {
+  color: var(--color-lbe0irne);
+  font-family: Inter, sans-serif;
   text-align: center;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.page-title span {
+  color: var(--white);
+  display: block;
+  font-size: 132%;
 }
 
 .stats {
@@ -293,6 +305,15 @@ picture img {
   .logo-nav .branding {
     display: none;
   }
+  .page-title {
+    letter-spacing: 10px;
+    font-size: 40px;
+    text-align: left;
+  }
+  .page-title span {
+    font-size: 186%;
+    text-align: right;
+  }
   .c-section.home-intro .c-column:first-child {
     -webkit-box-flex: 0 !important;
         -ms-flex: 0 0 100% !important;
@@ -349,6 +370,9 @@ picture img {
 @media screen and (min-width: 1024px) {
   .site-header .top-row .right-col .c-button {
     max-width: 229px;
+  }
+  .page-title {
+    font-size: 70px;
   }
   .c-section.img-txt > .inner {
     max-width: 1500px !important;
