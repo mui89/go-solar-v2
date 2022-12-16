@@ -316,6 +316,13 @@ picture img {
     font-size: 186%;
     text-align: right;
   }
+  .unflex-sm {
+    display: block !important;
+  }
+  .float-sm-left {
+    float: left;
+    margin-right: 30px;
+  }
   .c-section.home-intro .c-column:first-child {
     -webkit-box-flex: 0 !important;
         -ms-flex: 0 0 100% !important;
