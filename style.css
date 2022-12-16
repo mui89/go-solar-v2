@@ -178,6 +178,10 @@ picture img {
   max-width: 920px;
 }
 
+.page-title {
+  text-align: center;
+}
+
 .stats {
   font-family: var(--poppins);
   font-weight: 500;
