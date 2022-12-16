@@ -349,7 +349,7 @@ picture img {
     -webkit-box-flex: 0 !important;
         -ms-flex: 0 0 100% !important;
             flex: 0 0 100% !important;
-    max-width: 320px;
+    max-width: 325px;
   }
   .c-section.page-content .c-column:first-child:after {
     content: "";
