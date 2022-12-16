@@ -166,9 +166,16 @@ picture img {
   background-image: url(assets/arrow-wr.png);
 }
 
+.bg-opacity-4 > .bg {
+  opacity: 0.4;
+}
+
 .c-section.home-slider .c-column {
   padding-left: 0;
   padding-right: 0;
+}
+.c-section.page-banner > .inner {
+  max-width: 920px;
 }
 
 .stats {
