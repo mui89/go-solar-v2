@@ -340,7 +340,7 @@ picture img {
     -webkit-box-flex: 0 !important;
         -ms-flex: 0 0 100% !important;
             flex: 0 0 100% !important;
-    max-width: 280px;
+    max-width: 320px;
   }
   .c-section.page-content .c-column:first-child:after {
     content: "";
@@ -443,6 +443,11 @@ picture img {
 @media screen and (min-width: 1200px) {
   .c-section.home-intro .c-column:first-child {
     max-width: 480px;
+  }
+  .c-section.page-content {
+    max-width: 330px;
+    margin-left: 80px;
+    margin-right: 25px;
   }
   .c-section.img-txt .txt-col {
     padding-top: 80px;
