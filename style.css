@@ -310,6 +310,9 @@ picture img {
   .logo-nav .branding {
     display: none;
   }
+  .logo-nav .c-nav-menu .nav-menu > li:first-child {
+      display: none!important;
+  }
   .page-title {
     letter-spacing: 10px;
     font-size: 40px;
