@@ -92,6 +92,8 @@ picture img {
 
 .c-row>.inner {
   width: 95%!important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .midWideSection.full {
