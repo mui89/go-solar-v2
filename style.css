@@ -198,7 +198,7 @@ picture img {
 
 .stats {
   font-family: var(--poppins);
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
   line-height: 1.2;
 }
@@ -207,7 +207,6 @@ picture img {
 }
 .stats .stat .number {
   font-size: 40px;
-  font-weight: 700;
   line-height: 1.2;
   color: var(--color-lbf66ieb);
   margin-bottom: 15px;
