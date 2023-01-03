@@ -292,6 +292,10 @@ picture img {
   margin-top: 20px;
 }
 
+.backtotoprow {
+    margin-top: -100px!important;
+}
+
 /* Media Queries */
 @media screen and (min-width: 768px) {
   .site-header .top-row .right-col .c-custom-code, .site-header .top-row .right-col .c-button {
