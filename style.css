@@ -90,7 +90,7 @@ picture img {
   margin-right: auto;
 }
 
-.c-row>.inner {
+.c-section:not(.home-slider) .c-row>.inner {
   width: 95%!important;
   margin-left: auto;
   margin-right: auto;
@@ -190,7 +190,6 @@ picture img {
   padding-left: 0;
   padding-right: 0;
 }
-.c-section.home-slider .c-row>.inner {width: 100%!important;}
 .c-section.page-banner > .inner {
   max-width: 950px !important;
   height: 371px;
