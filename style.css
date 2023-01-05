@@ -90,7 +90,7 @@ picture img {
   margin-right: auto;
 }
 
-.c-section:not(.home-slider) .c-row>.inner {
+.c-section:not(.site-header):not(.home-slider) .c-row>.inner {
   width: 90%!important;
   margin-left: auto;
   margin-right: auto;
