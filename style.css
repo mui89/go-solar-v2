@@ -544,3 +544,8 @@ picture img {
     width: 150px;
   }
 }
+@media screen and (max-width: 480px) {
+  .benefits .c-image-feature .benefit .txt-container {
+    text-align: center;
+  }
+}
