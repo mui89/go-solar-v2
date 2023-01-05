@@ -149,6 +149,9 @@ picture img {
 #nav-menu-popup.nav-menu-bnIy1z0fwA .nav-menu-body .close-menu:hover, #nav-menu-popup.nav-menu-bnIy1z0fwA .nav-menu .nav-menu-item a:hover {
   color: var(--color-lbe0irne)!important;
 }
+#nav-menu-bnIy1z0fwA .nav-menu-mobile span::before {
+  font-size: 24px;
+}
 
 .navrow > .inner > .c-column:first-child {
   padding-left: 0;
@@ -536,5 +539,8 @@ picture img {
   .c-section.img-txt > .bg {
     position: relative;
     height: 300px;
+  }
+  .logo-nav .nav-menu-wrapper.default .branding .logo .image-container img {
+    width: 150px;
   }
 }
