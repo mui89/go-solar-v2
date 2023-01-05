@@ -150,7 +150,7 @@ picture img {
   color: var(--color-lbe0irne)!important;
 }
 #nav-menu-bnIy1z0fwA .nav-menu-mobile span::before {
-  font-size: 24px;
+  font-size: 24px!important;
 }
 
 .navrow > .inner > .c-column:first-child {
